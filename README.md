@@ -4,7 +4,7 @@
 
 **Project Title**: Retail Sales Analysis  
 **Level**: Beginner  
-**Database**: `p1_retail_db`
+**Database**: `sql_project_p01`
 
 This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
 
@@ -25,19 +25,18 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ```sql
 CREATE DATABASE p1_retail_db;
 
-CREATE TABLE retail_sales
-(
-    transactions_id INT PRIMARY KEY,
-    sale_date DATE,	
-    sale_time TIME,
-    customer_id INT,	
-    gender VARCHAR(10),
-    age INT,
-    category VARCHAR(35),
-    quantity INT,
-    price_per_unit FLOAT,	
-    cogs FLOAT,
-    total_sale FLOAT
+CREATE TABLE retail_sales (
+	transactions_id	INT PRIMARY KEY,
+	sale_date DATE,
+	sale_time TIME,
+	customer_id	INT,
+	gender	VARCHAR(10),
+	age	INT,
+	category	VARCHAR(20),
+	quantiy	INT,
+	price_per_unit	FLOAT,
+	cogs	FLOAT,
+	total_sale FLOAT
 );
 ```
 
@@ -219,9 +218,7 @@ This project is part of my portfolio, showcasing the SQL skills essential for da
 
 For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
 
-- **YouTube**: [Subscribe to my channel for tutorials and insights](https://www.youtube.com/@zero_analyst)
-- **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
 - **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/najirr)
-- **Discord**: [Join our community to learn and grow together](https://discord.gg/36h5f2Z5PK)
+- **Gmail**: [Just email me ](piyushkr.singh3011@gmail.com)
 
 Thank you for your support, and I look forward to connecting with you!
